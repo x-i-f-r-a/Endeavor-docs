@@ -2,7 +2,7 @@
 
 ## Server Static Files
 
-Momentum will look for static files inside the `templates` folder inside app directory.
+Endeavor will look for static files inside the `templates` folder inside app directory.
 So put all files inside `templates` directory for serving it.
 
 ```text
@@ -34,15 +34,15 @@ http://ip:port/css/style.css and http://ip:port/js/index.js.
 ```dart
 <!-- Express Js way -->
 
-import 'package:momentum_web/momentum_web.dart';
+import 'package:endeavor/endeavor.dart';
 
 class App {
   void main({server}) async {
-    final app = Momentum();
+    final app = Endeavor();
 
 
     app.GET('/', (Request req, Response res){
-        res.sendString('Momentum is up and running!');
+        res.sendString('Endeavor is up and running!');
     });
 
     app.runServer();
@@ -55,11 +55,11 @@ class App {
 ```dart
 <!-- Express Js way -->
 
-import 'package:momentum_web/momentum_web.dart';
+import 'package:endeavor/endeavor.dart';
 
 class App {
   void main({server}) async {
-    final app = Momentum();
+    final app = Endeavor();
 
 
     app.GET('/', (Request req, Response res){
@@ -77,11 +77,11 @@ class App {
 ```dart
 <!-- Express Js way -->
 
-import 'package:momentum_web/momentum_web.dart';
+import 'package:endeavor/endeavor.dart';
 
 class App{
   void main({server}) async {
-    final app = Momentum();
+    final app = Endeavor();
 
 
     app.GET('/', (Request req, Response res){
@@ -101,15 +101,15 @@ class App{
 ```dart
 <!-- Express Js way -->
 
-import 'package:momentum_web/momentum_web.dart';
+import 'package:endeavor/endeavor.dart';
 
 class App {
   void main({server}) async {
-    final app = Momentum();
+    final app = Endeavor();
 
 
     app.GET('/', (Request req, Response res){
-        res.Template('index.html', {'title' : 'My Momentum App'});
+        res.Template('index.html', {'title' : 'My Endeavor App'});
     });
 
     app.runServer();
@@ -126,11 +126,11 @@ class App {
 ```dart
 <!-- Express Js way -->
 
-import 'package:momentum_web/momentum_web.dart';
+import 'package:endeavor/endeavor.dart';
 
 class App{
   void main({server}) async {
-    final app = Momentum();
+    final app = Endeavor();
 
 
     app.GET('/', (Request req, Response res){
@@ -149,15 +149,15 @@ class App{
 ```dart
 <!-- Express Js way -->
 
-import 'package:momentum_web/momentum_web.dart';
+import 'package:endeavor/endeavor.dart';
 
 class App {
   void main({server}) async {
-    final app = Momentum();
+    final app = Endeavor();
 
 
     app.GET('/', (Request req, Response res){
-      res.flashMessage('success', 'Hey Momentum is up!!');
+      res.flashMessage('success', 'Hey Endeavor is up!!');
     });
 
     app.runServer();
@@ -174,11 +174,11 @@ class App {
 ```dart
 <!-- Express Js way -->
 
-import 'package:momentum_web/momentum_web.dart';
+import 'package:endeavor/endeavor.dart';
 
 class App {
   void main({server}) async {
-    final app = Momentum();
+    final app = Endeavor();
 
 
     app.GET('/', (Request req, Response res){
@@ -195,11 +195,11 @@ class App {
 ```dart
 <!-- Express Js way -->
 
-import 'package:momentum_web/momentum_web.dart';
+import 'package:endeavor/endeavor.dart';
 
 class App{
   void main() async {
-    final app = Momentum();
+    final app = Endeavor();
 
 
     app.GET('/', (Request req, Response res){
@@ -219,11 +219,11 @@ class App{
 ```dart
 <!-- Express Js way -->
 
-import 'package:momentum_web/momentum_web.dart';
+import 'package:endeavor/endeavor.dart';
 
 class App{
   void main({server}) async {
-    final app = Momentum();
+    final app = Endeavor();
 
 
     app.GET('/', (Request req, Response res){
@@ -243,11 +243,11 @@ class App{
 ```dart
 <!-- Express Js way -->
 
-import 'package:momentum_web/momentum_web.dart';
+import 'package:endeavor/endeavor.dart';
 
 class App {
   void main({server}) async {
-    final app = Momentum();
+    final app = Endeavor();
 
 
     app.GET('/', (Request req, Response res){
@@ -265,11 +265,11 @@ class App {
 ```dart
 <!-- Express Js way -->
 
-import 'package:momentum_web/momentum_web.dart';
+import 'package:endeavor/endeavor.dart';;
 
 class App {
   void main({server}) async {
-    final app = Momentum();
+    final app = Endeavor();
 
 
     app.GET('/', (Request req, Response res){
@@ -290,11 +290,11 @@ class App {
 ```dart
 <!-- Express Js way -->
 
-import 'package:momentum_web/momentum_web.dart';
+import 'package:endeavor/endeavor.dart';
 
 class App{
   void main({server}) async {
-    final app = Momentum();
+    final app = Endeavor();
 
 
     app.GET('/', (Request req, Response res){
@@ -314,11 +314,12 @@ class App{
 ```dart
 <!-- Express Js way -->
 import 'dart:convert';
-import 'package:momentum_web/momentum_web.dart';
+import 'package:endeavor/endeavor.dart';
+
 
 class App{
   void main({server}) async {
-    final app = Momentum();
+    final app = Endeavor();
 
 
     app.GET('/', (Request req, Response res){
@@ -339,11 +340,11 @@ class App{
 ```dart
 <!-- Express Js way -->
 
-import 'package:momentum_web/momentum_web.dart';
+import 'package:endeavor/endeavor.dart';
 
 class App { 
    void main({server}) async {
-    final app = Momentum();
+    final app = Endeavor();
 
 
     app.GET('/', (Request req, Response res) async {
@@ -364,11 +365,11 @@ class App {
 ```dart
 <!-- Express Js way -->
 
-import 'package:momentum_web/momentum_web.dart';
+import 'package:endeavor/endeavor.dart';
 
 class App {
   void main({server}) async {
-    final app = Momentum();
+    final app = Endeavor();
 
 
     app.GET('/', (Request req, Response res){
@@ -387,11 +388,11 @@ class App {
 ```dart
 <!-- Express Js way -->
 
-import 'package:momentum_web/momentum_web.dart';
+import 'package:endeavor/endeavor.dart';
 
 class App{
   void main({server}) async {
-    final app = Momentum();
+    final app = Endeavor();
 
 
     app.GET('/', (Request req, Response res){
@@ -412,11 +413,11 @@ class App{
 
 ```dart
 
-import 'package:momentum_web/momentum_web.dart';
+import 'package:endeavor/endeavor.dart';
 
 class App{
   void main({server}) async {
-    final app = Momentum();
+    final app = Endeavor();
 
 
     app.GET('/', (Request req, Response res){

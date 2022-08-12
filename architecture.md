@@ -1,21 +1,21 @@
 # Architecture Support
 
-Momentum web framework support two type of architecture for developing web applications.
+Endeavor web framework support two type of architecture for developing web applications.
 
 ## Express Js Architecture
 
-For the developers from Javascript and for the developers who are developing small API's or websites , Momentum support Express Js type developing architecture.
+For the developers from Javascript and for the developers who are developing small API's or websites , Endeavor support Express Js type developing architecture.
 
 #### Example 
 
 ```dart
 
-import 'package:momentum_web/momentum_web.dart';
+import 'package:endeavor/endeavor.dart';
 
 
 class App{
   void main({server}) async {
-    final app = Momentum();
+    final app = Endeavor();
 
 
     app.GET('/', (Request req, Response res){
@@ -32,12 +32,12 @@ Or
 
 ```dart
 
-import 'package:momentum_web/momentum_web.dart';
+import 'package:endeavor/endeavor.dart';
 
 
 class App{  
   void main({server}) async {
-    final app = Momentum();
+    final app = Endeavor();
 
 
     app.GET('/', Home);

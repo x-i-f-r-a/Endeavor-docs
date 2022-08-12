@@ -2,12 +2,12 @@
 
 ## Run a Cluster Server
 
-Cluster a single server as many using isolates using command `mctl -i <number of isolates>`:
+Cluster a single server as many using isolates using command `ectl -i <number of isolates>`:
 
 ```shell
 #  Run as multiple clusters
-mctl -i 2 
+ectl -i 2 
 or 
-mctl -isolate 2 [-p <port>] [-a <address>]
+ectl -isolate 2 [-p <port>] [-a <address>]
 ```
 

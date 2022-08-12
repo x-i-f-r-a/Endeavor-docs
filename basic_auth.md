@@ -3,12 +3,12 @@
 Basic authentication for different routes can be added inside the Momentum class. Example,
 
 ```dart
-import 'package:momentum_web/momentum_web.dart';
+import 'package:endeavor/endeavor.dart';
 
 class App{
   void main({server}) async {
 
-    final app = Momentum(
+    final app = Endeavor(
         basicAuth: {
             '/': 'username:password'
             '/dashboard': 'username2:password2'
@@ -19,7 +19,7 @@ class App{
     app.GET('/', (Request req, Response res){
 
       app.GET('/', (Request req, Response res){
-            res.sendString('My momentum app');
+            res.sendString('My Endeavor app');
         });
 
     });

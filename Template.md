@@ -1,6 +1,6 @@
 # Templating 
 
-Currently there is no officially supported template engine for Momentum Web Framework. You can use third-party template engines like [Liquid Engine](https://pub.dev/packages/liquid_engine) , [Jaded](https://pub.dev/packages/jaded) , [Mustache](https://pub.dev/packages/mustache).etc. But they aren't recommended for production usage. 
+Currently there is no officially supported template engine for Endeavor Web Framework. You can use third-party template engines like [Liquid Engine](https://pub.dev/packages/liquid_engine) , [Jaded](https://pub.dev/packages/jaded) , [Mustache](https://pub.dev/packages/mustache).etc. But they aren't recommended for production usage. 
 
 For passing data to webpage you can use,
 
@@ -17,7 +17,7 @@ class App {
   void main({server}) async {
 
                 
-    final app = Momentum();
+    final app = Endeavor();
 
 
     app.GET('/', (Request req,Response res){
@@ -73,7 +73,7 @@ class App {
   void main({server}) async {
 
                 
-    final app = Momentum();
+    final app = Endeavor();
 
 
     app.GET('/', (Request req,Response res){
