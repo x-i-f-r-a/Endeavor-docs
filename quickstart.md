@@ -2,28 +2,28 @@
 
 ### Prerequisites 
 
-In order to use Momentum Web Framework you must have the [Dart SDK][dart_installation_link] installed on your machine.
+In order to use Endeavor Web Framework you must have the [Dart SDK][dart_installation_link] installed on your machine.
 
 
-Momentum requires Dart `">=2.17.0 <3.0.0"`
+Endeavor requires Dart `">=2.17.0 <3.0.0"`
 
 
-### Installing Momentum CLI Tool 
+### Installing Endeavor CLI Tool 
 
 ```shell
-#  Install the moment cli from pub.dev
+#  Install the ectl cli from pub.dev
 
-dart pub global activate mctl
+dart pub global activate ectl
 
 ```
 
 ### Creating a New Project 
 
-Use the `mctl create <project name>` command to create a new project.
+Use the `ectl create <project name>` command to create a new project.
 
 ```shell
 #  Create a new project called "MyDreamProject"
-mctl create MyDreamProject
+ectl create MyDreamProject
 ```
 
 The directory structure is as follows:
@@ -47,7 +47,7 @@ Next, open the newly directory of created project and start the dev server by:
 
 ```shell
 #  Start the development server
-mctl dev
+ectl dev
 ```
 
 
